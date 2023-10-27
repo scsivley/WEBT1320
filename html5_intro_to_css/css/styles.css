@@ -1,0 +1,55 @@
+html {
+   background-color: rgb(85, 134, 153);
+}
+
+body {
+    background-color: rgb(192, 208, 223);
+    width: 960px;
+    margin: 20px auto;
+   }
+
+header h1 {
+    text-align: center;
+}     
+       
+header img {
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    height: 450px;
+   }
+
+nav {
+    text-align: center;
+   }
+
+nav a {
+    color: #000000da;
+    font-size: 18px;
+    margin: 0 20px;
+    text-decoration: none;
+}   
+           
+main img {
+    display: block;
+    margin: 20px auto;
+    width:  600px;
+    height: 400px;
+    }
+
+main h2 {
+    text-align: center;
+}
+
+main h3 {
+    text-align: center;
+}
+
+    footer {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: rgb(34, 34, 148);
+}
+  
