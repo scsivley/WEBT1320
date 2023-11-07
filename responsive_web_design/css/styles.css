@@ -1,0 +1,169 @@
+body {
+    background-color: black;
+}
+
+img {
+display: block;
+margin: 0 auto;
+width: 100%;
+}
+
+#container {
+    background-color: rgb(255, 94, 0);
+}
+
+nav {
+    background-color: rgba(255, 166, 0, 0.884);
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+    border-bottom: 2px solid orangered;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(255, 115, 0);
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 5px 0;
+}
+
+nav li a:hover {
+    background-color: grey;
+    color: black;
+    border-color: orangered;
+}
+
+main {
+    padding: 20px;
+}
+
+.col {
+    padding: 10px;
+    border-top: 2px solid;
+}
+
+footer {
+    background-color: black;
+    color: orangered;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 0;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    height: 10px;
+    line-height: 10px;
+    text-decoration: none;
+    background-color: rgba(255, 166, 0, 0.884);
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+table {
+    display: block;
+    margin: auto;
+    border: 4px solid black;
+    padding: 5px;    
+}
+
+td,tr {
+    border: 2px solid black;
+    width: 30%;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;
+        border: 0;
+    }
+
+    nav li a {
+        width: 170px;
+        margin: 0 5px;
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+
+    main {
+        display: flex;
+    }  
+    
+        
+    section, 
+    aside {
+        padding: 10px;
+        margin: 5px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    
+    .button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+    }
+
+    nav li a {
+        background-color: rgba(255, 166, 0, 0.884);
+        border: 0;
+    }
+
+    #lower_area {
+        display:flex;
+    }
+
+    #lower_area {
+       margin-left: auto;
+       margin-right: auto;
+    }
+
+    single_page {
+        width: 100%;
+    }  
+
+    .col { 
+        border: 1px solid black;
+        padding: 0 15px;
+    }
+
+    .col {
+        width: 50%;
+        height: auto;
+    }
+    
+    }
+  
